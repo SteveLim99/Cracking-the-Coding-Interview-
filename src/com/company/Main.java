@@ -1,6 +1,9 @@
 package com.company;
 import com.company.arrays_and_strings.isUnique;
 import com.company.arrays_and_strings.checkPerm;
+import com.company.arrays_and_strings.URLify;
+
+import java.net.URL;
 
 public class Main {
 
@@ -20,6 +23,10 @@ public class Main {
         // checkUnique("test")
 
         // Arrays and Strings #2: Check Permutation
-        checkPermutation("","");
+        // checkPermutation("ajflsdk;asdfjkl;af;sdjkl","afjl;sdkasdfjklasdfl;jk");
+
+        // URLify
+        URLify urLify = new URLify();
+        System.out.println(urLify.URLify("        i", 9));
     }
 }
