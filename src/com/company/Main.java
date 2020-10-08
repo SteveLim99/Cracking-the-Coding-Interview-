@@ -2,6 +2,7 @@ package com.company;
 import com.company.arrays_and_strings.isUnique;
 import com.company.arrays_and_strings.checkPerm;
 import com.company.arrays_and_strings.URLify;
+import com.company.arrays_and_strings.palindromePerm;
 
 import java.net.URL;
 
@@ -18,6 +19,11 @@ public class Main {
         System.out.println(checkPerm.checkPermutation(input,compare));
     }
 
+    public static void URLify(){
+        URLify urLify = new URLify();
+        System.out.println(urLify.URLify("        i", 9));
+    }
+
     public static void main(String[] args) {
 	    // Arrays and Strings #1: isUnique
         // checkUnique("test")
@@ -26,7 +32,10 @@ public class Main {
         // checkPermutation("ajflsdk;asdfjkl;af;sdjkl","afjl;sdkasdfjklasdfl;jk");
 
         // URLify
-        URLify urLify = new URLify();
-        System.out.println(urLify.URLify("        i", 9));
+        // URLify();
+
+        //Palindrome Permutation
+        palindromePerm palindromePerm = new palindromePerm();
+        System.out.println(palindromePerm.palindromePermuation("toorr"));
     }
 }
