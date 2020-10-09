@@ -3,6 +3,7 @@ import com.company.arrays_and_strings.isUnique;
 import com.company.arrays_and_strings.checkPerm;
 import com.company.arrays_and_strings.URLify;
 import com.company.arrays_and_strings.palindromePerm;
+import com.company.arrays_and_strings.oneWay;
 
 import java.net.URL;
 
@@ -24,6 +25,11 @@ public class Main {
         System.out.println(urLify.URLify("        i", 9));
     }
 
+    public static void palindromePermutation(String input){
+        palindromePerm palindromePerm = new palindromePerm();
+        System.out.println(palindromePerm.palindromePermuation(input));
+    }
+
     public static void main(String[] args) {
 	    // Arrays and Strings #1: isUnique
         // checkUnique("test")
@@ -34,8 +40,11 @@ public class Main {
         // URLify
         // URLify();
 
-        //Palindrome Permutation
-        palindromePerm palindromePerm = new palindromePerm();
-        System.out.println(palindromePerm.palindromePermuation("toorr"));
+        // Palindrome Permutation
+        // palindromePermutation("test");
+
+        // One Way
+//        oneWay oneWay = new oneWay();
+//        System.out.println(oneWay.oneWay("pale", "pla"));
     }
 }
