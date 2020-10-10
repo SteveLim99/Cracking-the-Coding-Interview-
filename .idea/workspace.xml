@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/arrays_and_strings/stringComp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cracking-the-Coding-Interview-/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cracking-the-Coding-Interview-/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cracking-the-Coding-Interview-/com/company/arrays_and_strings/oneWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cracking-the-Coding-Interview-/com/company/arrays_and_strings/oneWay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cracking-the-Coding-Interview-/com/company/arrays_and_strings/stringComp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cracking-the-Coding-Interview-/com/company/arrays_and_strings/stringComp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/arrays_and_strings/oneWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays_and_strings/oneWay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/arrays_and_strings/stringComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays_and_strings/stringComp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+            <state relative-caret-position="402">
+              <caret line="53" column="72" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/stringComp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+            <state relative-caret-position="79">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -154,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602348073208" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602350510644" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,18 +195,18 @@
       <updated>1601131260678</updated>
       <workItem from="1601131264639" duration="63000" />
       <workItem from="1601195458531" duration="5907000" />
-      <workItem from="1602088268406" duration="24293000" />
+      <workItem from="1602088268406" duration="26742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30263000" />
+    <option name="totallyTimeSpent" value="32712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.064785376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09896661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,7 +216,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37191853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -314,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+        <state relative-caret-position="402">
+          <caret line="53" column="72" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -324,8 +322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/stringComp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+        <state relative-caret-position="79">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>

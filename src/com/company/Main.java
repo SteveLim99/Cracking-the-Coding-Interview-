@@ -50,6 +50,7 @@ public class Main {
 
         // String Compression
         stringComp stringComp = new stringComp();
-        System.out.println(stringComp.compression("aabcccccaaa"));
+        System.out.println(stringComp.compression("aabcccccaaac"));
+        System.out.println(stringComp.optimizedCompression("aabcccccaaac"));
     }
 }
