@@ -4,6 +4,7 @@ import com.company.arrays_and_strings.checkPerm;
 import com.company.arrays_and_strings.URLify;
 import com.company.arrays_and_strings.palindromePerm;
 import com.company.arrays_and_strings.oneWay;
+import com.company.arrays_and_strings.stringComp;
 
 import java.net.URL;
 
@@ -45,6 +46,10 @@ public class Main {
 
         // One Way
 //        oneWay oneWay = new oneWay();
-//        System.out.println(oneWay.oneWay("pale", "pla"));
+//        System.out.println(oneWay.oneWay("pale", "ple"));
+
+        // String Compression
+        stringComp stringComp = new stringComp();
+        System.out.println(stringComp.compression("aabcccccaaa"));
     }
 }
