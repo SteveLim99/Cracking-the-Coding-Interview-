@@ -5,6 +5,7 @@ import com.company.arrays_and_strings.URLify;
 import com.company.arrays_and_strings.palindromePerm;
 import com.company.arrays_and_strings.oneWay;
 import com.company.arrays_and_strings.stringComp;
+import com.company.arrays_and_strings.rotateMatrix;
 
 import java.net.URL;
 
@@ -49,8 +50,19 @@ public class Main {
 //        System.out.println(oneWay.oneWay("pale", "ple"));
 
         // String Compression
-        stringComp stringComp = new stringComp();
-        System.out.println(stringComp.compression("aabcccccaaac"));
-        System.out.println(stringComp.optimizedCompression("aabcccccaaac"));
+        // stringComp stringComp = new stringComp();
+        // System.out.println(stringComp.compression("aabcccccaaac"));
+        // System.out.println(stringComp.optimizedCompression("aabcccccaaac"));
+
+        // Rotate Matrix
+        rotateMatrix rotateMatrix = new rotateMatrix();
+        int[][] tmp = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] rotated = rotateMatrix.rotateMatrix_imp_1(tmp);
+        for(int[] curr : rotated){
+            for(int curr2: curr){
+                System.out.println(curr2);
+            }
+        }
+
     }
 }
