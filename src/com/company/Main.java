@@ -6,6 +6,7 @@ import com.company.arrays_and_strings.palindromePerm;
 import com.company.arrays_and_strings.oneWay;
 import com.company.arrays_and_strings.stringComp;
 import com.company.arrays_and_strings.rotateMatrix;
+import com.company.arrays_and_strings.zeroMatrix;
 
 import java.net.URL;
 
@@ -55,14 +56,20 @@ public class Main {
         // System.out.println(stringComp.optimizedCompression("aabcccccaaac"));
 
         // Rotate Matrix
-        rotateMatrix rotateMatrix = new rotateMatrix();
-        int[][] tmp = {{1,2,3},{4,5,6},{7,8,9}};
-        int[][] rotated = rotateMatrix.rotateMatrix_imp_1(tmp);
-        for(int[] curr : rotated){
-            for(int curr2: curr){
-                System.out.println(curr2);
-            }
-        }
+//        rotateMatrix rotateMatrix = new rotateMatrix();
+//        int[][] tmp = {{1,2,3},{4,5,6},{7,8,9}};
+//        int[][] rotated = rotateMatrix.rotateMatrix_imp_1(tmp);
 
+        // Zero Matrix
+        zeroMatrix zeroMatrix = new zeroMatrix();
+        int[][] tmp = {{1,2,3,4,0},{4,2,6,2,3},{0,1,2,8,9}};
+        int[][] ans = zeroMatrix.zeroMatrix(tmp);
+        for(int[] i : ans){
+            StringBuilder sb = new StringBuilder();
+            for(int j : i){
+                sb.append(j);
+            }
+            System.out.println(sb.toString());
+        }
     }
 }
