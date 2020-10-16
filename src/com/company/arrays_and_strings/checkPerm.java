@@ -20,9 +20,6 @@ public class checkPerm {
             compareCount += compareCurr;
         }
 
-        if (inputCount != compareCount){
-            return false;
-        }
-        return  true;
+        return inputCount != compareCount ? false : true;
     }
 }
