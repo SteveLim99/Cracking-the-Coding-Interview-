@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/stackAndQueues/minStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +26,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/stackAndQueues/minStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="42" selection-start-column="9" selection-end-line="43" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/linked_list/intersection.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#156#175#0" expanded="true" />
               </folding>
@@ -81,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/com/company/arrays_and_strings/checkPerm.java" />
         <option value="$PROJECT_DIR$/src/com/company/linked_list/intersection.java" />
         <option value="$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java" />
+        <option value="$PROJECT_DIR$/src/com/company/stackAndQueues/minStack.java" />
       </list>
     </option>
   </component>
@@ -120,13 +139,6 @@
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="arrays_and_strings" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cracking-the-Coding-Interview-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cracking-the-Coding-Interview-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="linked_list" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +165,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602922782459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602932954284" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,12 +210,12 @@
       <workItem from="1601195458531" duration="5907000" />
       <workItem from="1602088268406" duration="27082000" />
       <workItem from="1602396230539" duration="11524000" />
-      <workItem from="1602859586459" duration="11285000" />
+      <workItem from="1602859586459" duration="14260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55861000" />
+    <option name="totallyTimeSpent" value="58836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
@@ -402,16 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/stringRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/linked_list/intersection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -424,10 +426,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#156#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/stringRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/stackAndQueues/minStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="42" selection-start-column="9" selection-end-line="43" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
           </folding>
         </state>
       </provider>
