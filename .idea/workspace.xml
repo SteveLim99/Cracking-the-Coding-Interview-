@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#156#175#0" expanded="true" />
               </folding>
@@ -153,7 +153,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602922761864" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602922782459" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,12 +198,12 @@
       <workItem from="1601195458531" duration="5907000" />
       <workItem from="1602088268406" duration="27082000" />
       <workItem from="1602396230539" duration="11524000" />
-      <workItem from="1602859586459" duration="11264000" />
+      <workItem from="1602859586459" duration="11285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55840000" />
+    <option name="totallyTimeSpent" value="55861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
@@ -425,7 +425,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#156#175#0" expanded="true" />
           </folding>
