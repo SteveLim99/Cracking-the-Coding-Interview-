@@ -91,9 +91,9 @@ public class Main {
 //        System.out.println(stringRotation.stringRotation("watwaerbottle", "erbottlewatwa"));
 
         // Minimal Tree
-        minimalTree minimalTree = new minimalTree();
-        int[] tmp = {1,2,3,4,5,6,7,8,9};
-        TreeNode test = minimalTree.minimalTree(tmp);
-        traverse(test);
+//        minimalTree minimalTree = new minimalTree();
+//        int[] tmp = {1,2,3,4,5,6,7,8,9};
+//        TreeNode test = minimalTree.minimalTree(tmp);
+//        traverse(test);
     }
 }
