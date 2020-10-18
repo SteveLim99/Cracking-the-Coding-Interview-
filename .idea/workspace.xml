@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/linked_list/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/linked_list/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/treesAndGraphs/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/treesAndGraphs/listOfDepths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/listOfDepths.java" afterDir="false" />
-    </list>
+    <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603038749137" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603039665652" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,12 +230,12 @@
       <workItem from="1601195458531" duration="5907000" />
       <workItem from="1602088268406" duration="27082000" />
       <workItem from="1602396230539" duration="11524000" />
-      <workItem from="1602859586459" duration="27809000" />
+      <workItem from="1602859586459" duration="28408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72385000" />
+    <option name="totallyTimeSpent" value="72984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
