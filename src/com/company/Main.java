@@ -8,11 +8,12 @@ import com.company.arrays_and_strings.stringComp;
 import com.company.arrays_and_strings.rotateMatrix;
 import com.company.arrays_and_strings.zeroMatrix;
 import com.company.arrays_and_strings.stringRotation;
+import com.company.linked_list.ListNode;
 import com.company.treesAndGraphs.TreeNode;
-import com.company.treesAndGraphs.minimalTree;
-import com.sun.source.tree.Tree;
+import com.company.treesAndGraphs.listOfDepths;
 
 import java.net.URL;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -95,5 +96,24 @@ public class Main {
 //        int[] tmp = {1,2,3,4,5,6,7,8,9};
 //        TreeNode test = minimalTree.minimalTree(tmp);
 //        traverse(test);
+
+        TreeNode tmp = new TreeNode();
+        TreeNode iter = tmp;
+        iter.val = 3;
+        iter.left = new TreeNode(4);
+        iter.right = new TreeNode(5);
+        iter.left.left = new TreeNode(10);
+        iter.right.right = new TreeNode(11);
+        iter.left.right = new TreeNode(20);
+        iter.right.left = new TreeNode(30);
+        listOfDepths listOfDepths = new listOfDepths();
+        ArrayList<ListNode> results = listOfDepths.listOfDepths(tmp);
+        for(ListNode i : results){
+            System.out.println("New Depth");
+            while(i != null){
+                System.out.println(i.val);
+                i = i.next;
+            }
+        }
     }
 }
