@@ -8,6 +8,9 @@ import com.company.arrays_and_strings.stringComp;
 import com.company.arrays_and_strings.rotateMatrix;
 import com.company.arrays_and_strings.zeroMatrix;
 import com.company.arrays_and_strings.stringRotation;
+import com.company.treesAndGraphs.TreeNode;
+import com.company.treesAndGraphs.minimalTree;
+import com.sun.source.tree.Tree;
 
 import java.net.URL;
 
@@ -32,6 +35,16 @@ public class Main {
     public static void palindromePermutation(String input){
         palindromePerm palindromePerm = new palindromePerm();
         System.out.println(palindromePerm.palindromePermuation(input));
+    }
+
+    public static void traverse(TreeNode treeNode){
+        if(treeNode.left != null){
+            traverse(treeNode.left);
+        }
+        System.out.println(treeNode.val);
+        if(treeNode.right != null){
+            traverse(treeNode.right);
+        }
     }
 
     public static void main(String[] args) {
@@ -74,7 +87,13 @@ public class Main {
 //        }
 
         // String Rotation
-        stringRotation stringRotation = new stringRotation();
-        System.out.println(stringRotation.stringRotation("watwaerbottle", "erbottlewatwa"));
+//        stringRotation stringRotation = new stringRotation();
+//        System.out.println(stringRotation.stringRotation("watwaerbottle", "erbottlewatwa"));
+
+        // Minimal Tree
+        minimalTree minimalTree = new minimalTree();
+        int[] tmp = {1,2,3,4,5,6,7,8,9};
+        TreeNode test = minimalTree.minimalTree(tmp);
+        traverse(test);
     }
 }
