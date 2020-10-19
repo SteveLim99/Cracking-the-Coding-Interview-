@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/treesAndGraphs/checkBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/checkBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/validBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/checkBalanced.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -62,8 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/validBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -109,12 +120,13 @@
         <option value="$PROJECT_DIR$/src/com/company/linked_list/hasCycle.java" />
         <option value="$PROJECT_DIR$/src/com/company/stackAndQueues/minStack.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java" />
         <option value="$PROJECT_DIR$/src/com/company/linked_list/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/listOfDepths.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/checkBalanced.java" />
+        <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java" />
+        <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/validBST.java" />
       </list>
     </option>
   </component>
@@ -194,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603126594895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603132352295" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,18 +252,18 @@
       <workItem from="1602088268406" duration="27082000" />
       <workItem from="1602396230539" duration="11524000" />
       <workItem from="1602859586459" duration="29876000" />
-      <workItem from="1603118459041" duration="2503000" />
+      <workItem from="1603118459041" duration="3853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76955000" />
+    <option name="totallyTimeSpent" value="78305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11764706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11764706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -522,6 +527,20 @@
             <element signature="e#835#836#0" expanded="true" />
             <element signature="e#876#877#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/minimalTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/validBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>

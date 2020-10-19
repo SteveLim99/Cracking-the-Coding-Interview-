@@ -7,9 +7,7 @@ public class minimalTree {
     }
 
     private TreeNode minimalTree(int[] input, int start, int end){
-        if(end < start){
-            return null;
-        }
+        if(end < start) return null;
         int mid = (start+end)/2;
         TreeNode treeNode = new TreeNode(input[mid]);
         treeNode.left = minimalTree(input, start,mid-1);
