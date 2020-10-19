@@ -22,7 +22,7 @@ public class checkBalanced {
         return max + 1;
     }
 
-    public boolean isBalanced_2(TreeNode root) {
+    public boolean isBalanced_opti(TreeNode root) {
         return helper(root) != -1;
     }
     private int helper(TreeNode root){

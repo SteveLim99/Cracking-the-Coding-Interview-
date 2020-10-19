@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/checkBalanced.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="e#835#836#0" expanded="true" />
                 <element signature="e#876#877#0" expanded="true" />
@@ -194,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603125903112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603126594895" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,12 +240,12 @@
       <workItem from="1602088268406" duration="27082000" />
       <workItem from="1602396230539" duration="11524000" />
       <workItem from="1602859586459" duration="29876000" />
-      <workItem from="1603118459041" duration="2398000" />
+      <workItem from="1603118459041" duration="2503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76850000" />
+    <option name="totallyTimeSpent" value="76955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
@@ -517,7 +517,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/checkBalanced.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="e#835#836#0" expanded="true" />
             <element signature="e#876#877#0" expanded="true" />
