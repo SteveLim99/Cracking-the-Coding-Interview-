@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/isSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,7 +198,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603291272285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603301740528" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,12 +244,12 @@
       <workItem from="1602088268406" duration="27082000" />
       <workItem from="1602396230539" duration="11524000" />
       <workItem from="1602859586459" duration="29876000" />
-      <workItem from="1603118459041" duration="11104000" />
+      <workItem from="1603118459041" duration="11764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85556000" />
+    <option name="totallyTimeSpent" value="86216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
