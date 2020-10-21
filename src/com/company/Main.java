@@ -10,7 +10,7 @@ import com.company.arrays_and_strings.zeroMatrix;
 import com.company.arrays_and_strings.stringRotation;
 import com.company.linked_list.ListNode;
 import com.company.treesAndGraphs.TreeNode;
-import com.company.treesAndGraphs.listOfDepths;
+import com.company.treesAndGraphs.Sucessor;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -106,14 +106,9 @@ public class Main {
         iter.right.right = new TreeNode(11);
         iter.left.right = new TreeNode(20);
         iter.right.left = new TreeNode(30);
-        listOfDepths listOfDepths = new listOfDepths();
-        ArrayList<ListNode> results = listOfDepths.listOfDepths(tmp);
-        for(ListNode i : results){
-            System.out.println("New Depth");
-            while(i != null){
-                System.out.println(i.val);
-                i = i.next;
-            }
-        }
+        Sucessor sucessor = new Sucessor();
+        TreeNode ans = sucessor.successor(tmp,tmp);
+        if(ans == null) System.out.println("null");
+        else System.out.println(ans.val);
     }
 }
