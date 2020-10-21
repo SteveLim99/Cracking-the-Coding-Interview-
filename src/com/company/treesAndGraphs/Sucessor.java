@@ -1,5 +1,7 @@
 package com.company.treesAndGraphs;
 
+import com.sun.source.tree.Tree;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,5 +28,27 @@ public class Sucessor {
         return tmp;
     }
 
-    
+    public TreeNode successor_opti(TreeNode n){
+        if(n == null) return null;
+
+        if(n.right != null) return leftMost(n.right);
+        else{
+            TreeNode curr = n;
+            // TreeNode parent = n.parent();
+//            while(parent != null && parent.left != curr){
+//                curr = parent;
+//                parent = curr.parent();
+//            }
+            return curr;
+
+        }
+    }
+
+    public TreeNode leftMost(TreeNode n){
+        if(n == null) return null;
+        while(n.left != null){
+            n = n.left;
+        }
+        return n;
+    }
 }
