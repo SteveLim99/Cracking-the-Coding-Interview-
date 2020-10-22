@@ -25,4 +25,26 @@ public class uniquePath {
         }
         return grid[m-1][n-1];
     }
+
+    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        int yMax = obstacleGrid.length;
+        int xMax = obstacleGrid[0].length;
+        for(int y = 0; y < yMax; y++){
+            int[] curr = obstacleGrid[y];
+            for(int x = 0; x < xMax; x++){
+                int isObs = curr[x];
+                if(isObs != 1){
+                    if(y == 0){
+                        if(x!=0 && obstacleGrid[y][x-1] == 0) obstacleGrid[y][x] = 0;
+                        else obstacleGrid[y][x] =1;
+                    } else if(x == 0){
+                        if(y!=0 && obstacleGrid[y-1][x] == 0) obstacleGrid[y][x] = 0;
+                        else obstacleGrid[y][x] = 1;
+                    }
+                    else obstacleGrid[y][x] = obstacleGrid[y-1][x] + obstacleGrid[y][x-1];
+                } else obstacleGrid[y][x] = 0;
+            }
+        }
+        return obstacleGrid[yMax-1][xMax-1];
+    }
 }
