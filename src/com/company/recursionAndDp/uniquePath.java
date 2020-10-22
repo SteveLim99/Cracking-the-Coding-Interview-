@@ -12,4 +12,17 @@ public class uniquePath {
         if(x+1<=xLim) total += paths(y,x+1,xLim);
         return total;
     }
+
+    public int uniquePaths_opti(int m, int n) {
+        int[][] grid = new int[m][n];
+        for(int i = 0; i<m; i++){
+            for(int j = 0; j<n; j++){
+                if(i==0||j==0)
+                    grid[i][j] = 1;
+                else
+                    grid[i][j] = grid[i][j-1] + grid[i-1][j];
+            }
+        }
+        return grid[m-1][n-1];
+    }
 }
