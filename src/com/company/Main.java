@@ -11,7 +11,7 @@ import com.company.arrays_and_strings.stringRotation;
 import com.company.linked_list.ListNode;
 import com.company.treesAndGraphs.TreeNode;
 import com.company.treesAndGraphs.Sucessor;
-
+import com.company.recursionAndDp.magixIndex;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -97,18 +97,24 @@ public class Main {
 //        TreeNode test = minimalTree.minimalTree(tmp);
 //        traverse(test);
 
-        TreeNode tmp = new TreeNode();
-        TreeNode iter = tmp;
-        iter.val = 3;
-        iter.left = new TreeNode(4);
-        iter.right = new TreeNode(5);
-        iter.left.left = new TreeNode(10);
-        iter.right.right = new TreeNode(11);
-        iter.left.right = new TreeNode(20);
-        iter.right.left = new TreeNode(30);
-        Sucessor sucessor = new Sucessor();
-        TreeNode ans = sucessor.successor(tmp,tmp);
-        if(ans == null) System.out.println("null");
-        else System.out.println(ans.val);
+        // Sucessor Tree
+//        TreeNode tmp = new TreeNode();
+//        TreeNode iter = tmp;
+//        iter.val = 3;
+//        iter.left = new TreeNode(4);
+//        iter.right = new TreeNode(5);
+//        iter.left.left = new TreeNode(10);
+//        iter.right.right = new TreeNode(11);
+//        iter.left.right = new TreeNode(20);
+//        iter.right.left = new TreeNode(30);
+//        Sucessor sucessor = new Sucessor();
+//        TreeNode ans = sucessor.successor(tmp,tmp);
+//        if(ans == null) System.out.println("null");
+//        else System.out.println(ans.val);
+
+        // Magic Index
+        magixIndex magixIndex = new magixIndex();
+        int[] test = {-40,-20,-1,1,2,3,5,7,9,12,13};
+        System.out.println(magixIndex.magicIndex_BST("BST_OPTIMIZED",test));
     }
 }
