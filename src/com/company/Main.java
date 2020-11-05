@@ -115,6 +115,6 @@ public class Main {
         // Magic Index
         magixIndex magixIndex = new magixIndex();
         int[] test = {-40,-20,-1,1,2,3,5,7,9,12,13};
-        System.out.println(magixIndex.magicIndex_BST("BST_OPTIMIZED",test));
+        System.out.println(magixIndex.magicIndex_BST("BST_NONDISTINCT",test));
     }
 }
