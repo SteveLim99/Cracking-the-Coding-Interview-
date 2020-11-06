@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/recursionAndDp/subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/recursionAndDp/magixIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/recursionAndDp/magixIndex.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/magixIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+            <state relative-caret-position="143">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/subsets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="117" column="52" lean-forward="true" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
+            <state relative-caret-position="246">
+              <caret line="115" column="49" lean-forward="true" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,16 +93,17 @@
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/tripleStep.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/maxLvlSum.java" />
         <option value="$PROJECT_DIR$/src/com/company/mathAndLogic/removeCoveredIntervals.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/magixIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/subsets.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="675" />
-    <option name="y" value="305" />
-    <option name="width" value="1550" />
-    <option name="height" value="850" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1378" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -162,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604596566790" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604654684780" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,12 +223,12 @@
       <workItem from="1602859586459" duration="29876000" />
       <workItem from="1603118459041" duration="20389000" />
       <workItem from="1603795633149" duration="6000" />
-      <workItem from="1604561195012" duration="8461000" />
+      <workItem from="1604561195012" duration="10363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103308000" />
+    <option name="totallyTimeSpent" value="105210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -240,7 +253,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -556,8 +569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="117" column="52" lean-forward="true" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
+        <state relative-caret-position="246">
+          <caret line="115" column="49" lean-forward="true" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -566,8 +579,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/magixIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+        <state relative-caret-position="143">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
