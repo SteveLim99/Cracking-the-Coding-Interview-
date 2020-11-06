@@ -10,15 +10,21 @@ public class parens {
         return output;
     }
 
+    // The reason this works is because we essentially insert "(" and ")" 
     private void backtracing_unoptimized(List<String> output, String tmp, int left, int right, int max){
+        // The edge case
         if(tmp.length() == max*2){
             output.add(tmp);
             return;
         }
 
+        // The reason we do not need to delete the last index of the string is because everytime we pass the string into backtrackking
+        // We are essentially passing in a new String object that has no pointers to the old one
+        // Hence the state of the old string presist
         if(left < max){
             backtracing_unoptimized(output, tmp+"(",left+1,right,max);
         }
+
 
         if (right < left){
             backtracing_unoptimized(output, tmp+")",left,right+1,max);
@@ -37,6 +43,8 @@ public class parens {
             return;
         }
 
+        // The reason we need to remove the last index in the string builder is because we are passing the same stringbuilder object
+        // This can also be seen when we are passing a list during backtracking and have to remove the last case on every iteration
         if(left < max){
             backtracing_opti(output, sb.append("("),left+1,right,max);
             sb.deleteCharAt(sb.length()-1);
