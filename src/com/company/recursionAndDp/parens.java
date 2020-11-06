@@ -10,7 +10,12 @@ public class parens {
         return output;
     }
 
-    // The reason this works is because we essentially insert "(" and ")" 
+    // The reason this works is because we essentially insert "(" and ")" to balance them out.
+    // In backtracking, we have to select options and we have to list out the options available to select for the algorithm to recursively go through them.
+    // This works as we want to keep the value of "(" <= n, we recursively add "(" first on every recursive step until we reach n
+    // Once we reach n, we start adding the ")" as the condition of ")" is less than "(".
+
+    // These two conditions produce a balanced string!
     private void backtracing_unoptimized(List<String> output, String tmp, int left, int right, int max){
         // The edge case
         if(tmp.length() == max*2){
