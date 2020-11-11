@@ -113,8 +113,8 @@ public class Main {
 //        else System.out.println(ans.val);
 
         // Magic Index
-        magixIndex magixIndex = new magixIndex();
-        int[] test = {-40,-20,-1,1,2,3,5,7,9,12,13};
-        System.out.println(magixIndex.magicIndex_BST("BST_NONDISTINCT",test));
+//        magixIndex magixIndex = new magixIndex();
+//        int[] test = {-40,-20,-1,1,2,3,5,7,9,12,13};
+//        System.out.println(magixIndex.magicIndex_BST("BST_NONDISTINCT",test));
     }
 }
