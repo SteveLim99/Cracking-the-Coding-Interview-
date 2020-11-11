@@ -22,4 +22,22 @@ public class combinationSum {
             tmp.remove(tmp.size()-1);
         }
     }
+
+    public List<List<Integer>> combinationSum2_backtrack(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        List<List<Integer>> output = new ArrayList();
+        backtrack(output,new ArrayList(), candidates,target,0);
+        return output;
+    }
+
+    private void backtrack_combiSum2(List<List<Integer>> total, List<Integer> tmp, int[] candidates, int remain, int head){
+        if(remain < 0) return;
+        if(remain == 0 && !total.contains(tmp)) total.add(new ArrayList(tmp));
+
+        for(int i = head; i < candidates.length; i++){
+            tmp.add(candidates[i]);
+            backtrack(total,tmp,candidates,remain-candidates[i],i+1);
+            tmp.remove(tmp.size()-1);
+        }
+    }
 }
