@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/recursionAndDp/minPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/recursionAndDp/minPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,30 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/combination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/threeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/combinationSum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +47,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/numberOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/minPathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -165,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/Sucessor.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/FCA.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/isSubtree.java" />
-        <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/uniquePath.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/tripleStep.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/maxLvlSum.java" />
@@ -182,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/wordSearch.java" />
         <option value="$PROJECT_DIR$/src/com/company/mathAndLogic/gameOfLife.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/numberOfIslands.java" />
+        <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/minPathSum.java" />
+        <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java" />
       </list>
     </option>
   </component>
@@ -268,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605254411737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605279588762" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,12 +316,12 @@
       <workItem from="1605106753922" duration="2150000" />
       <workItem from="1605115903862" duration="4169000" />
       <workItem from="1605193052907" duration="348000" />
-      <workItem from="1605247385484" duration="596000" />
+      <workItem from="1605247385484" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117580000" />
+    <option name="totallyTimeSpent" value="118939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -633,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/maxLvlSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -772,6 +761,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/minPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
