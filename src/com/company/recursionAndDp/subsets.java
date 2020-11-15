@@ -53,7 +53,7 @@ public class subsets {
         for(int i = header; i < nums.length; i++){
             // This line of code removes duplicates
             // This is because instead of iterating through the same element twice, if it is see that the same element occurs twice in the sorted list
-            // It will skip it instead of adding that element into tmp and calling the recursive operation agn. 
+            // It will skip it instead of adding that element into tmp and calling the recursive operation agn.
             if(i > header && nums[i] == nums[i-1]) continue;
             tmp.add(nums[i]);
             backtrack(total,tmp,i+1,nums);
