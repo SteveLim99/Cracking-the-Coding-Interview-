@@ -36,10 +36,11 @@ public class fillTheTruck {
         Collections.sort(combined);
         int sum = 0;
         if(totalBoxes == 0) return sum;
-        for(int i = 1; i <= this.truckSize; i--){
+        int count = 0;
+        for(int i = 1; i <= totalBoxes; i++){
             sum += combined.get(totalBoxes-i);
-            totalBoxes--;
-            if(totalBoxes == 0) break;
+            count++;
+            if(count == this.truckSize) break;
         }
 
         return sum;

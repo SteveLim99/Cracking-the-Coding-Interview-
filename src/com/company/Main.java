@@ -129,8 +129,8 @@ public class Main {
 //        cutOffRank cutOffRank = new cutOffRank(9,4,tmp);
 //        System.out.println(cutOffRank.getCutOffRank());
 
-        int[] boxes = {1,2,3};
-        int[] unitsPerBox = {3,2,1};
+        int[] boxes = {};
+        int[] unitsPerBox = {};
         fillTheTruck fillTheTruck = new fillTheTruck(6,boxes,unitsPerBox,3,3);
         System.out.println(fillTheTruck.getFillTheTruck());
     }
