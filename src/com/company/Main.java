@@ -15,6 +15,7 @@ import com.company.recursionAndDp.magixIndex;
 import java.net.URL;
 import java.util.ArrayList;
 import com.company.interviewPrep.teams;
+import com.company.interviewPrep.cutOffRank;
 
 public class Main {
 
@@ -118,9 +119,14 @@ public class Main {
 //        int[] test = {-40,-20,-1,1,2,3,5,7,9,12,13};
 //        System.out.println(magixIndex.magicIndex_BST("BST_NONDISTINCT",test));
 
-        int[] skills = {12, 4, 6, 13, 5, 10};
-        teams teams = new teams(6,skills,3,4,10);
-        System.out.println(teams.calcTeams());
-        System.out.println(teams.calcTeam_fact());
+//        int[] skills = {12, 4, 6, 13, 5, 10};
+//        teams teams = new teams(6,skills,3,4,10);
+//        System.out.println(teams.calcTeams());
+//        System.out.println(teams.calcTeam_fact());
+
+        int[] tmp = {100,100,100,50,50,50,40,40,25};
+        cutOffRank cutOffRank = new cutOffRank(7,4,tmp);
+        System.out.println(cutOffRank.getCutOffRank());
+
     }
 }
