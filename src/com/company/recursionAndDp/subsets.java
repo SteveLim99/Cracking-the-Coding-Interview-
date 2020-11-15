@@ -21,4 +21,23 @@ public class subsets {
             tmp.remove(tmp.size()-1);
         }
     }
+
+    public List<List<Integer>> subsetsWithDup_2(int[] nums) {
+        List<List<Integer>> total = new ArrayList();
+        Arrays.sort(nums);
+        backtrack_2(total,new ArrayList(), 0, nums);
+        return total;
+    }
+
+    private void backtrack_2(List<List<Integer>> total, List<Integer> tmp, int header, int[] nums)    {
+        if(header > nums.length) return;
+        List<Integer> tmpArr = new ArrayList(tmp);
+        if(!total.contains(tmpArr)) total.add(tmpArr);
+
+        for(int i = header; i < nums.length; i++){
+            tmp.add(nums[i]);
+            backtrack(total,tmp,i+1,nums);
+            tmp.remove(tmp.size()-1);
+        }
+    }
 }
