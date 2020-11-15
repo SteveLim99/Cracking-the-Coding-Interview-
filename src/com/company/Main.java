@@ -14,6 +14,7 @@ import com.company.treesAndGraphs.Sucessor;
 import com.company.recursionAndDp.magixIndex;
 import java.net.URL;
 import java.util.ArrayList;
+import com.company.interviewPrep.teams;
 
 public class Main {
 
@@ -116,5 +117,9 @@ public class Main {
 //        magixIndex magixIndex = new magixIndex();
 //        int[] test = {-40,-20,-1,1,2,3,5,7,9,12,13};
 //        System.out.println(magixIndex.magicIndex_BST("BST_NONDISTINCT",test));
+
+        int[] skills = {12, 4, 6, 13, 5, 10};
+        teams teams = new teams(6,skills,3,4,10);
+        System.out.println(teams.calcTeams());
     }
 }
