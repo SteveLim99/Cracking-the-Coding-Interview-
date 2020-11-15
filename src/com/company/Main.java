@@ -121,5 +121,6 @@ public class Main {
         int[] skills = {12, 4, 6, 13, 5, 10};
         teams teams = new teams(6,skills,3,4,10);
         System.out.println(teams.calcTeams());
+        System.out.println(teams.calcTeam_fact());
     }
 }

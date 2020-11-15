@@ -43,4 +43,25 @@ public class teams {
         return total;
     }
 
+    private long factorial(int n) {
+        long fact = 1;
+        for (int i = 2; i <= n; i++) {
+            fact = fact * i;
+        }
+        return fact;
+    }
+
+    public int calcTeam_fact(){
+        int max = 0;
+        for(int i : this.skillLevel){
+            if(i >= this.minLvl && i <= this.maxLvl) max++;
+        }
+
+        int possible = 0;
+        for(int i = this.minTeamMembers; i <= max; i++){
+            possible += factorial(max) / factorial(i) * factorial(max-i);
+        }
+        return possible;
+    }
+
 }
