@@ -16,6 +16,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import com.company.interviewPrep.teams;
 import com.company.interviewPrep.cutOffRank;
+import com.company.interviewPrep.fillTheTruck;
 
 public class Main {
 
@@ -124,9 +125,13 @@ public class Main {
 //        System.out.println(teams.calcTeams());
 //        System.out.println(teams.calcTeam_fact());
 
-        int[] tmp = {100,100,100,50,50,50,40,40,25};
-        cutOffRank cutOffRank = new cutOffRank(7,4,tmp);
-        System.out.println(cutOffRank.getCutOffRank());
+//        int[] tmp = {1,100,1,1,1,1,10,0,0};
+//        cutOffRank cutOffRank = new cutOffRank(9,4,tmp);
+//        System.out.println(cutOffRank.getCutOffRank());
 
+        int[] boxes = {1,2,3};
+        int[] unitsPerBox = {3,2,1};
+        fillTheTruck fillTheTruck = new fillTheTruck(6,boxes,unitsPerBox,3,3);
+        System.out.println(fillTheTruck.getFillTheTruck());
     }
 }

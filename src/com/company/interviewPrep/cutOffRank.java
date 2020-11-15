@@ -25,6 +25,8 @@ public class cutOffRank {
         for(int i = 0; i < score.length; i++ ){
             int curr = score[i];
 
+            if(curr == 0) break;
+
             if(curr != currScore){
                 currScore = curr;
                 currRank = count + 1;
