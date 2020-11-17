@@ -3,21 +3,8 @@ import com.company.arrays_and_strings.isUnique;
 import com.company.arrays_and_strings.checkPerm;
 import com.company.arrays_and_strings.URLify;
 import com.company.arrays_and_strings.palindromePerm;
-import com.company.arrays_and_strings.oneWay;
-import com.company.arrays_and_strings.stringComp;
-import com.company.arrays_and_strings.rotateMatrix;
-import com.company.arrays_and_strings.zeroMatrix;
-import com.company.arrays_and_strings.stringRotation;
-import com.company.linked_list.ListNode;
 import com.company.treesAndGraphs.TreeNode;
-import com.company.treesAndGraphs.Sucessor;
-import com.company.recursionAndDp.magixIndex;
-import java.net.URL;
-import java.util.ArrayList;
-import com.company.interviewPrep.teams;
-import com.company.interviewPrep.cutOffRank;
 import com.company.interviewPrep.fillTheTruck;
-import com.company.interviewPrep.amazonOA2;
 
 public class Main {
 
