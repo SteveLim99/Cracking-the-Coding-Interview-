@@ -5,6 +5,7 @@ import com.company.arrays_and_strings.URLify;
 import com.company.arrays_and_strings.palindromePerm;
 import com.company.treesAndGraphs.TreeNode;
 import com.company.interviewPrep.fillTheTruck;
+import com.company.interviewPrep.sharePurchases;
 
 public class Main {
 
@@ -117,9 +118,14 @@ public class Main {
 //        cutOffRank cutOffRank = new cutOffRank(9,4,tmp);
 //        System.out.println(cutOffRank.getCutOffRank());
 
-        int[] boxes = {};
-        int[] unitsPerBox = {};
-        fillTheTruck fillTheTruck = new fillTheTruck(6,boxes,unitsPerBox,3,3);
-        System.out.println(fillTheTruck.getFillTheTruck());
+        // Fill the truck
+//        int[] boxes = {};
+//        int[] unitsPerBox = {};
+//        fillTheTruck fillTheTruck = new fillTheTruck(6,boxes,unitsPerBox,3,3);
+//        System.out.println(fillTheTruck.getFillTheTruck());
+
+        // share purchases
+        sharePurchases sharePurchases = new sharePurchases();
+        System.out.println(sharePurchases.analyzeSharePrices_backtrack("ABCCBA"));
     }
 }
