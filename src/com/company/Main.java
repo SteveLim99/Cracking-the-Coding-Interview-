@@ -126,6 +126,6 @@ public class Main {
 
         // share purchases
         sharePurchases sharePurchases = new sharePurchases();
-        System.out.println(sharePurchases.analyzeSharePrices_backtrack("ABCCBA"));
+        System.out.println(sharePurchases.analyzeSharePrices("ABCCBA"));
     }
 }
