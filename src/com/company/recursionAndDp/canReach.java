@@ -12,7 +12,7 @@ public class canReach {
         return dfs(arr,start+arr[start]) || dfs(arr,start-arr[start]);
     }
 
-    public boolean canJump(int[] nums) {
+    public boolean canJump_dfs(int[] nums) {
         return dfs_canJump(nums,0);
     }
 
@@ -28,5 +28,14 @@ public class canReach {
         nums[curr] = -1;
 
         return tmp;
+    }
+
+    public boolean canJump_opti(int[] nums) {
+        int maxReach = 0;
+        for(int i = 0; i < nums.length;i++){
+            if(i > maxReach) return false;
+            maxReach = Math.max(maxReach,nums[i]+i);
+        }
+        return true;
     }
 }
