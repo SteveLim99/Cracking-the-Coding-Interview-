@@ -48,10 +48,9 @@ public class rightSideView {
             int count = bfs.size();
             while(count != 0){
                 TreeNode curr = bfs.remove();
-                if(count == 1) rightView.add(curr.val);
+                if(count-- == 1) rightView.add(curr.val);
                 if(curr.left != null) bfs.add(curr.left);
                 if(curr.right!=null) bfs.add(curr.right);
-                count--;
             }
 
         }
