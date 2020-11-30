@@ -35,4 +35,18 @@ public class rightSideView {
 
         return rightView;
     }
+
+    public List<Integer> rightSideView_opti(TreeNode root) {
+        List<Integer> res = new ArrayList();
+        traverse(res,root,0);
+        return res;
+    }
+
+    private void traverse(List<Integer> res, TreeNode root, int k){
+        if(root == null) return;
+        if(res.size()==k) res.add(root.val);
+
+        traverse(res,root.right,k+1);
+        traverse(res,root.left,k+1);
+    }
 }
