@@ -51,7 +51,7 @@ public class mergeIntervals {
     // Lambda functions used here!!!!
     public int[][] merge_2(int[][] intervals) {
         if(intervals.length == 1) return intervals;
-        //LAMBDA FUNCTIONS 
+        //LAMBDA FUNCTIONS
         Arrays.sort(intervals, (i1, i2) -> Integer.compare(i1[0], i2[0]));
 
         List<List<Integer>> res = new ArrayList();
@@ -81,5 +81,27 @@ public class mergeIntervals {
         }
 
         return total;
+    }
+
+    public int[][] merge_opti(int[][] intervals) {
+        if(intervals.length == 1) return intervals;
+        Arrays.sort(intervals, (i1, i2) -> Integer.compare(i1[0], i2[0]));
+
+        List<int[]> res = new ArrayList();
+        int slowStart = intervals[0][0], slowEnd = intervals[0][1];
+        for(int i = 1; i < intervals.length; i++){
+            int currStart = intervals[i][0], currEnd = intervals[i][1];
+            if(slowStart == currStart || slowEnd >= currStart){
+                slowEnd = Math.max(slowEnd, currEnd);
+            } else {
+                res.add(new int[]{slowStart, slowEnd});
+                slowStart = currStart;
+                slowEnd = currEnd;
+            }
+        }
+        res.add(new int[]{slowStart, slowEnd});
+
+        // Converting Array back to primitive list
+        return res.toArray(new int[res.size()][2]);
     }
 }
