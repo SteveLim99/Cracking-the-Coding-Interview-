@@ -36,6 +36,29 @@ public class rightSideView {
         return rightView;
     }
 
+    public List<Integer> rightSideView_2(TreeNode root) {
+        List<Integer> rightView = new ArrayList();
+        if(root == null) return rightView;
+
+        Queue<TreeNode> bfs = new LinkedList();
+        bfs.add(root);
+
+        while(!bfs.isEmpty()){
+
+            int count = bfs.size();
+            while(count != 0){
+                TreeNode curr = bfs.remove();
+                if(count == 1) rightView.add(curr.val);
+                if(curr.left != null) bfs.add(curr.left);
+                if(curr.right!=null) bfs.add(curr.right);
+                count--;
+            }
+
+        }
+
+        return rightView;
+    }
+
     public List<Integer> rightSideView_opti(TreeNode root) {
         List<Integer> res = new ArrayList();
         traverse(res,root,0);
