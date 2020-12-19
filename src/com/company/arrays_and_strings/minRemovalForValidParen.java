@@ -3,7 +3,7 @@ package com.company.arrays_and_strings;
 import java.util.Stack;
 
 public class minRemovalForValidParen {
-    public String minRemovalForValidParen(String s) {
+    public String minRemovalForValidParen_1(String s) {
         int open = 0, close = 0;
 
         for(int i = 0; i < s.length(); i++){
@@ -36,6 +36,38 @@ public class minRemovalForValidParen {
             else if (curr != '(' && curr != ')') sb.append(curr);
             else {
                 if(curr == ')') remClose--;
+            }
+        }
+
+        return sb.toString();
+    }
+
+    public String minRemovalForValidParen_2(String s) {
+        StringBuilder sb = new StringBuilder(s);
+
+        int open = 0, close = 0;
+        for(int i = 0; i < s.length(); i++){
+            char curr = s.charAt(i);
+            if(curr == '(') open++;
+            else if(curr == ')'){
+                if(open != 0) {
+                    open--;
+                    close++;
+                }
+                else sb.setCharAt(i,'#');
+            }
+        }
+
+        for(int i = 0; i < s.length(); i++){
+            char curr = s.charAt(i);
+            if(curr == '(' && close != 0) close--;
+            else if (curr =='(' && close == 0) sb.setCharAt(i,'#');
+        }
+
+        for(int i = 0; i < sb.length(); i++){
+            if(sb.charAt(i) == '#') {
+                sb.deleteCharAt(i);
+                i--;
             }
         }
 
