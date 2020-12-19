@@ -10,6 +10,24 @@ public class decodeWays {
         return res.size();
     }
 
+    public int numDecodings_2(String s) {
+        if(s.length() == 1 || s.charAt(0) == '0') return (s.charAt(0) == '0') ? 0 : 1;
+
+        int i = 0;
+        int[] res = new int[s.length()+1];
+        res[0] = 1;
+        res[1] = (s.charAt(i) == '0') ? 0 : 1;
+        for(i = 2; i <= s.length(); i++){
+            int first = Integer.valueOf(s.substring(i - 1, i));
+            System.out.println(first);
+            int second = Integer.valueOf(s.substring(i - 2, i));
+            System.out.println(second);
+            if (first >= 1 && first <= 9) res[i] += res[i-1];
+            if (second >= 10 && second <= 26) res[i] += res[i-2];
+        }
+        return res[i-1];
+    }
+
     private void backtrack(String s, List<String> res, StringBuilder sb, int head){
         if(sb.length() == s.length()) {
             res.add(sb.toString());
