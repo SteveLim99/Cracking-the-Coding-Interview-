@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/arrays_and_strings/lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/arrays_and_strings/lengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/arrays_and_strings/minTimeDiff.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/validateIpAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/prefixWordSearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/lengthOfLongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -106,6 +93,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/minTimeDiff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -137,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/magixIndex.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/permutation.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/combination.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/parens.java" />
@@ -188,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/com/company/arrays_and_strings/partitionLabels.java" />
         <option value="$PROJECT_DIR$/src/com/company/arrays_and_strings/decodeWays.java" />
         <option value="$PROJECT_DIR$/src/com/company/arrays_and_strings/lengthOfLongestSubstring.java" />
+        <option value="$PROJECT_DIR$/src/com/company/arrays_and_strings/minTimeDiff.java" />
       </list>
     </option>
   </component>
@@ -309,7 +305,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608404105873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608451898327" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -370,12 +366,12 @@
       <workItem from="1606804513122" duration="63000" />
       <workItem from="1607431759768" duration="599000" />
       <workItem from="1607618437389" duration="269000" />
-      <workItem from="1608285721141" duration="5263000" />
+      <workItem from="1608285721141" duration="5879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176274000" />
+    <option name="totallyTimeSpent" value="176890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -450,13 +446,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/pathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/validTriangleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -866,6 +855,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/minTimeDiff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
