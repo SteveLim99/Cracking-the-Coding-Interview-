@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class meetingRoom {
-    public int minMeetingRooms(int[][] intervals) {
+    public int minMeetingRoomsII(int[][] intervals) {
         if(intervals.length == 0) return 0;
         List<Integer> start = new ArrayList();
         List<Integer> end = new ArrayList();
