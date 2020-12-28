@@ -37,6 +37,8 @@ public class removeKDigits {
         return sb.reverse().toString();
     }
 
+    // In java, the dequeu operator is preferred to stack, this can be seen here
+    // https://stackoverflow.com/questions/12524826/why-should-i-use-deque-over-stack#:~:text=Using%20the%20Deque%20interface%20removes,(like%20LinkedList%2C%20ArrayDeque).
     public String removeKdigits_2(String num, int k) {
         if(k >= num.length()) return "0";
 
