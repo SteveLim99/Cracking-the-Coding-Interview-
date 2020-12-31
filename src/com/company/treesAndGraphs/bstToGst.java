@@ -35,4 +35,13 @@ public class bstToGst {
         tmp.add(root.val);
         dfs(root.left,tmp);
     }
+
+    int sum = 0;
+
+    public TreeNode bstToGst_2(TreeNode root) {
+        if(root.right != null) bstToGst_2(root.right);
+        sum = root.val = sum + root.val;
+        if(root.left != null) bstToGst_2(root.left);
+        return root;
+    }
 }
