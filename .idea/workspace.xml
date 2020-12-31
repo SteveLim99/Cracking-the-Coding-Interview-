@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a533d45-4c04-4e97-8a62-43f7613da6a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/treesAndGraphs/bstToGst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/treesAndGraphs/bstToGst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/arrays_and_strings/rotateImage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/decodeString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/recursionAndDp/threeSum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/treesAndGraphs/bstToGst.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -72,6 +63,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/rotateImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/interviewPrep/teams.java" />
         <option value="$PROJECT_DIR$/src/com/company/recursionAndDp/subsets.java" />
         <option value="$PROJECT_DIR$/src/com/company/interviewPrep/breakPalindrome.java" />
         <option value="$PROJECT_DIR$/src/com/company/interviewPrep/cutOffRank.java" />
@@ -189,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/sumNumber.java" />
         <option value="$PROJECT_DIR$/src/com/company/stackAndQueues/removeKDigits.java" />
         <option value="$PROJECT_DIR$/src/com/company/treesAndGraphs/bstToGst.java" />
+        <option value="$PROJECT_DIR$/src/com/company/arrays_and_strings/rotateImage.java" />
       </list>
     </option>
   </component>
@@ -310,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609403304495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1609407451416" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -379,12 +379,12 @@
       <workItem from="1608740777268" duration="395000" />
       <workItem from="1608996314320" duration="731000" />
       <workItem from="1609053355195" duration="5068000" />
-      <workItem from="1609403066886" duration="236000" />
+      <workItem from="1609403066886" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187451000" />
+    <option name="totallyTimeSpent" value="188062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -459,13 +459,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/interviewPrep/fillTheTruck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/interviewPrep/sharePurchases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -879,6 +872,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/arrays_and_strings/rotateImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
