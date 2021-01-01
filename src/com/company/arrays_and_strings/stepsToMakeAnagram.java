@@ -3,6 +3,7 @@ package com.company.arrays_and_strings;
 import java.util.HashMap;
 
 public class stepsToMakeAnagram {
+    // Implementation is slow and uses an unnecesarry amount of hashmaps
     public int minSteps_1(String s, String t) {
         HashMap<Character, Integer> mapS = new HashMap();
         HashMap<Character, Integer> mapT = new HashMap();
@@ -30,5 +31,17 @@ public class stepsToMakeAnagram {
         return res;
     }
 
-    
+    // Implementation is faster but still slow since we are using charAt and charAt is not a very efficient function
+    public int minSteps_2(String s, String t) {
+        int[] chars = new int[26];
+        for(int i = 0; i < s.length(); i++){
+            chars[t.charAt(i) - 'a']++;
+            chars[s.charAt(i) - 'a']--;
+        }
+        int res = 0;
+        for(int i : chars) if(i > 0) res += i;
+        return res;
+    }
+
+
 }
