@@ -43,5 +43,17 @@ public class stepsToMakeAnagram {
         return res;
     }
 
-
+    // Fastest implementation that converts string to char array allowing us to directly query via index
+    public int minSteps_3(String s, String t) {
+        int[] chars = new int[26];
+        char[] newS = s.toCharArray();
+        char[] newT = t.toCharArray();
+        for(int i = 0; i < newS.length; i++){
+            chars[newT[i] - 'a']++;
+            chars[newS[i] - 'a']--;
+        }
+        int res = 0;
+        for(int i : chars) if(i > 0) res += i;
+        return res;
+    }
 }
