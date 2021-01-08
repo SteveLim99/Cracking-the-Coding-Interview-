@@ -62,4 +62,39 @@ public class maxWidthOfBinaryTree {
         }
         return width;
     }
+
+    public int widthOfBinaryTree_2(TreeNode root) {
+        Queue<TreeNode> bfs = new LinkedList();
+        Queue<Integer> idx = new LinkedList();
+        bfs.offer(root);
+        idx.offer(1);
+        int max = 1;
+
+        while(!bfs.isEmpty()){
+            int count = bfs.size();
+            int start = 0, end = 0;
+            for(int i = 0; i < count; i++){
+                TreeNode currNode = bfs.poll();
+                int currIdx = idx.poll();
+
+                if(i == 0) start = currIdx;
+                if(i == count-1) end = currIdx;
+
+                if(currNode.left != null){
+                    bfs.offer(currNode.left);
+                    idx.offer(currIdx * 2);
+                }
+
+                if(currNode.right != null){
+                    bfs.offer(currNode.right);
+                    idx.offer(currIdx * 2 + 1);
+                }
+            }
+
+            int width = end + 1 - start;
+            if(width > max) max = width;
+        }
+
+        return max;
+    }
 }
