@@ -1,12 +1,9 @@
 package com.company.arrays_and_strings;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 public class candyCrush {
-    public int[][] candyCrush_1(int[][] board) {
+    public int[][] candyCrush_3(int[][] board) {
         while(true){
             HashMap<Integer, Set<Integer>> map = new HashMap();
             check(board,map);
@@ -111,6 +108,74 @@ public class candyCrush {
             while(!nonZeros.isEmpty()){
                 board[head][i] = nonZeros.pop();
                 head--;
+            }
+        }
+    }
+
+    public int[][] candyCrush_1(int[][] board) {
+        while(true){
+            Set<List<Integer>> hori = checkHori_1(board);
+            Set<List<Integer>> verti = checkVerti_1(board);
+            if(hori.isEmpty() && verti.isEmpty()) break;
+
+            updateBoard_1(board,hori,verti);
+        }
+        return board;
+    }
+
+    private Set<List<Integer>> checkHori_1(int[][] board){
+        Set<List<Integer>> crushHori = new HashSet();
+        for(int k = 0; k < board.length; k++){
+            int[] i = board[k];
+            for(int j = 2; j < i.length; j++){
+                int target = i[j];
+                if(target != 0 && i[j-2] == target && i[j-1] == target){
+                    crushHori.add(Arrays.asList(k,j));
+                    crushHori.add(Arrays.asList(k,j-1));
+                    crushHori.add(Arrays.asList(k,j-2));
+                }
+            }
+        }
+        return crushHori;
+    }
+
+    private Set<List<Integer>> checkVerti_1(int[][] board){
+        Set<List<Integer>> crushVerti = new HashSet();
+        for(int i = 0; i < board[0].length; i++){
+            for(int j = 2; j < board.length; j++){
+                int target = board[j][i];
+                if(target != 0 && board[j-1][i] == target && board[j-2][i] == target){
+                    crushVerti.add(Arrays.asList(j,i));
+                    crushVerti.add(Arrays.asList(j-1,i));
+                    crushVerti.add(Arrays.asList(j-2,i));
+                }
+            }
+        }
+        return crushVerti;
+    }
+
+    private void updateBoard_1(int[][] board, Set<List<Integer>> hori, Set<List<Integer>> verti){
+        Set<Integer> affected = new HashSet();
+        for(List<Integer> i : hori){
+            board[i.get(0)][i.get(1)] = 0;
+            affected.add(i.get(1));
+        }
+        for(List<Integer> j : verti){
+            board[j.get(0)][j.get(1)] = 0;
+            affected.add(j.get(1));
+        }
+
+        for(int i : affected){
+            Stack<Integer> elems = new Stack();
+            for(int j = 0; j < board.length; j++){
+                if(board[j][i] != 0)  elems.add(board[j][i]);
+                board[j][i] = 0;
+            }
+
+            int j = board.length-1;
+            while(!elems.isEmpty()){
+                board[j][i] = elems.pop();
+                j--;
             }
         }
     }
